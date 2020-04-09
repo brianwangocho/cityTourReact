@@ -9,9 +9,15 @@
         width: 100%;
         border-top-left-radius: 0.8rem;
         border-top-right-radius: 0.8rem;
+        transition: all 0.3s linear;
         display: block;
     }
-}   
+    
+}  
+
+.tour img:hover{
+    transform: scale(1.1);
+}
 
 .img-container{
     position: relative;
@@ -23,7 +29,7 @@
     right:5%;
     color: $mainGreen;
     cursor: pointer;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     opacity: 0;
 }
 .img-container:hover .close-btn{
@@ -32,6 +38,7 @@
 .tour-info{
     padding: 1rem 0.5rem;
 }
+
 h3{
 text-transform: capitalize;
 color:$mainGreen;

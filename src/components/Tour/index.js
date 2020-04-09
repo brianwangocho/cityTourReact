@@ -17,7 +17,7 @@ class Tour extends Component{
         return(
             <article className="tour">
             <div className="img-container">
-            <img 
+            <img className="city-image"
             width="200"
             src={img} 
             alt=""/>
