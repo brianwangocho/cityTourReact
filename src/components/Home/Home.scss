@@ -1,0 +1,35 @@
+
+@import '../../index.scss';
+
+.jumbotron{
+    background-color: $mainBlack;
+    color: $mainGrey;
+
+    h1{
+        color: $mainGreen;
+    }
+}
+
+
+.wrapper{
+    display: grid;
+ 
+    grid-template-columns: 60% 40%;
+}
+.wrapper >div{
+    background: $mainGrey;
+    padding: 1em;
+}
+.wrapper >div:nth-child(odd){
+    margin-right: 10px;
+    background: $mainBlack
+}
+.badge{
+    background-color: $mainGreen;
+}
+.list-group-item{
+    transition: all 0.3s linear;
+}
+.list-group-item:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

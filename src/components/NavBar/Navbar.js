@@ -2,6 +2,7 @@
 import React from 'react';
 import "./Navbar.scss";
 import TourList from "../TourList"
+import Home from "../Home/home"
 import NotFound from "../404Page/notfound"
 import {
     BrowserRouter as Router,
@@ -25,6 +26,7 @@ export default function Navbar() {
      </nav>
      <Switch>
          <Route path="/home">
+         <Home/>
          </Route>
          <Route  path="/about">
          </Route>
