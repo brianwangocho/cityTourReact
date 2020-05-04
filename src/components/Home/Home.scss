@@ -6,6 +6,7 @@
     color: $mainGrey;
 
     h1{
+        font-family: 'Montserrat';
         color: $mainGreen;
     }
 }
@@ -13,7 +14,7 @@
 
 .wrapper{
     display: grid;
- 
+    grid-column-gap: 1em;
     grid-template-columns: 60% 40%;
 }
 .wrapper >div{
@@ -21,7 +22,7 @@
     padding: 1em;
 }
 .wrapper >div:nth-child(odd){
-    margin-right: 10px;
+    
     background: $mainBlack
 }
 .badge{
