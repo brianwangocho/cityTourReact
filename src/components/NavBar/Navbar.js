@@ -33,7 +33,7 @@ export default function Navbar() {
          <Route path="/">
             <TourList/>
          </Route>
-         <Route component={NotFound}/>
+         {/* <Route component={NotFound}/> */}
      </Switch>
      </Router>
     )
